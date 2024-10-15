@@ -27,3 +27,11 @@ type types_structs interface {
 	Equals(s1 interface{}, s2 interface{}) bool
 	IsStruct(v any) bool
 }
+
+type alpha interface {
+	Run()
+}
+
+type beta interface {
+	Run()
+}
