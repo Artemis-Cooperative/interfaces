@@ -28,10 +28,10 @@ type types_structs interface {
 	IsStruct(v any) bool
 }
 
-type alpha interface {
+type Alpha interface {
 	Run()
 }
 
-type beta interface {
+type Beta interface {
 	Run()
 }
